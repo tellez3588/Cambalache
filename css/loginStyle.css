@@ -1,0 +1,95 @@
+body{
+    font-size: 12px;
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+nav .desktop{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+nav .desktop .links{
+    display: flex;
+}
+
+nav .desktop .imgLogo{
+    width:  50px;
+    height: 50px;
+
+}
+
+
+
+nav a{
+    font-size: 14px;
+    color: #c95555;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+}
+
+nav a:hover{
+    color: black;
+    background-color: #00c3ff;
+}
+
+.ingreso{
+    background-color: #ddd7d7;
+    text-align: center;
+    padding: 100px
+}
+
+.datos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.datos .user{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+.datos .botones{
+    padding: 20px;
+}
+
+.datos .buscar, .buscar1{
+    width: 300px;
+    height: 25px;
+}
+
+.datos .btnIngresar, .btnContraseña{
+    width: 100px;
+    height: 25px;
+
+}
+
+.pie{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+
+.pie .foot{
+    display: flex;
+}
+

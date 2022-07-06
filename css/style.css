@@ -1,0 +1,124 @@
+body{
+    font-size: 12px;
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #ddd7d7;
+    
+}
+
+.cat{
+    width: 380px;
+    height: 300px;
+}
+
+.rec{
+    width: 450px;
+    height: 200px;
+}
+
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+nav .desktop{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+nav .desktop .links{
+    display: flex;
+}
+
+nav .desktop .imgLogo{
+    width:  50px;
+    height: 50px;
+
+}
+
+
+
+nav a{
+    font-size: 14px;
+    color: #c95555;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+}
+
+nav a:hover{
+    color: black;
+    background-color: #00c3ff;
+}
+
+main .buscar{
+    text-align: center;
+    padding: 100px;
+}
+
+main .btnBuscar, .carrito{
+    background-color: #8d7f7f;
+    color: whitesmoke;
+    border: none;
+}
+
+main .buscar .btnBuscar{
+    width: 100px;
+    height: 40px;
+}
+
+
+main .buscar .txtBuscar{
+    width: 400px;
+    height: 40px;
+}
+
+.categoria{
+    padding: 100px;
+}
+
+.linea{
+    color: #606060;
+    width: 80%;
+}
+
+.categoria .imgCategorias{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.cambalaches-recientes{
+    padding: 100px;
+}
+
+.cambalaches-recientes .recientes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.piePagina{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+
+.piePagina .foot{
+    display: flex;
+}
+
