@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="css/registroStyle.css">
+</head>
+<body>
+    <section>
+        <nav>
+            <section class = "desktop">
+                <section class="logo"><img class="imgLogo" src="imagenes/Icon.png" alt="Logo"></section>            
+                <section class="links">
+                    <a href="#">Inicio</a>
+                    <a href="#">|</a>
+                    <a href="#">Cambalaches</a>
+                    <a href="#">|</a>
+                    <a href="#">Ingresar</a>
+                    <a href="#">|</a>
+                    <button class="carrito">CARRITO</button>
+                </section>           
+            </section>
+        </nav>
+    </section>
+
+    <section class="registro">
+        <h1>Registro de Usuarios</h1>
+    </section>
+
+    <section class="informacion">
+
+      <section class="info1">
+        <input class="txt" type="text" placeholder="First Name" required>
+        <input class="txt" type="text" placeholder="Last Name" required>
+      </section>
+
+      <section class="info2">
+        <input class="txt1" type="text" placeholder="Address" required>
+        <br>
+        <input class="txt1" type="text" placeholder="Address 2" required>
+      </section>
+
+      <section class="info3">
+        <input class="comboBox" list="paises" placeholder="Country" required>
+          <datalist id="paises">
+            <option value="Costa Rica"></option>
+            <option value="Mexico"></option>
+            <option value="El Salvador"></option>
+            <option value="Nicaragua"></option>
+          </datalist>
+        <input class="buscar" type="text" placeholder="City" required>
+        <input class="buscar" type="text" placeholder="Correo Electronico" required>
+        <input class="buscar" type="text" placeholder="Contraseña" required>
+      </section>
+
+      <section class="botones">
+        <p id="parrafo">Si ya tienes una cuenta de usuario <a href="#">ingrese aqui</a></p>
+        <button type="button" class="btn" data-toggle="modal"
+                data-target="#modalCompra">Registrarse</button>
+        <button type="button" class="btn" data-toggle="modal"
+                data-target="#modalCompra">Cancelar</button>       
+      </section>
+    </section>
+    <hr>
+    <footer class="pie">
+        <nav>
+            <section class="foot">
+              <a href="#">inicio</a>
+              <a href="#">|</a>
+              <a href="#">Cambalaches</a>
+              <a href="#">|</a>
+              <a href="#">Ingresar</a>
+            </section>
+            <section class="foot2">
+                <p>cambalache.net</p>
+            </section>
+        </nav>     
+    </footer>
+    
+</body>
+</html>

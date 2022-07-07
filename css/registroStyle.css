@@ -12,6 +12,11 @@ h1{
     text-align: center;
 }
 
+.linea{
+    color: black;
+    size: 80%;
+}
+
 
 nav .desktop{
     display: flex;
@@ -46,41 +51,76 @@ nav a:hover{
     background-color: #00c3ff;
 }
 
-.ingreso{
+.registro{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     background-color: #ddd7d7;
-    text-align: center;
     padding: 100px
 }
 
-.datos{
+
+.informacion{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 60px;
 }
 
-.datos .user{
+.informacion .info1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.informacion .info2{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-
-}
-.datos .botones{
-    padding: 20px;
+    padding: 13px;
 }
 
-.datos .buscar, .buscar1{
-    width: 300px;
+.informacion .info3{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+.informacion .info1 .txt{
+    width: 400px;
     height: 25px;
+    margin-left: 10px;
 }
 
-.datos .btnIngresar, .btnContraseña{
-    width: 100px;
+.informacion .info2 .txt1{
+    width: 822px;
     height: 25px;
-
+    
 }
+
+.informacion .info3 .comboBox, .buscar{
+    width: 400px;
+    height: 25px;
+    
+}
+
+.botones .btn{
+    width: 200px;
+    height: 25px;
+    background-color: rgb(184, 169, 169);
+}
+
+
+
+
+
+
+
 
 .pie{
     display: flex;
@@ -96,4 +136,3 @@ nav a:hover{
 .pie .foot2{
     text-align: center;
 }
-
