@@ -1,4 +1,4 @@
-body{
+body {
     font-size: 12px;
     color: #606060;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,40 +6,35 @@ body{
     padding: 0;
 }
 
-h1{
+h1 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
 
-.linea{
+.linea {
     color: black;
     size: 80%;
 }
 
-
-nav .desktop{
+nav .desktop {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: #cbbebe;
-
 }
 
-nav .desktop .links{
+nav .desktop .links {
     display: flex;
 }
 
-nav .desktop .imgLogo{
-    width:  50px;
+nav .desktop .imgLogo {
+    width: 50px;
     height: 50px;
-
 }
 
-
-
-nav a{
+nav a {
     font-size: 14px;
     color: #c95555;
     text-decoration: none;
@@ -47,18 +42,39 @@ nav a{
     padding: 20px 25px;
 }
 
-nav a:hover{
+nav a:hover {
     color: black;
     background-color: #00c3ff;
 }
 
+nav button:hover {
+    color: black;
+    background-color: #00c3ff;
+}
 
-.cambalache{
+.desktop .carrito {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.desktop .carrito .carrito1,
+.p {
+    display: flex;
+}
+
+.desktop .carrito .carrito1 {
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.cambalache {
     text-align: center;
     padding: 100px;
 }
 
-.productos{
+.productos {
     width: 90%;
     margin: auto;
     padding: 100px;
@@ -66,40 +82,35 @@ nav a:hover{
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 80px;
-    
-
 }
 
-.productos .art{
+.productos .art {
     display: flex;
     gap: 20px;
-
 }
 
-.productos .art .info{
+.productos .art .info {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.productos .art .foto{
+.productos .art .foto {
     width: 100px;
     height: 100px;
 }
 
-
-
-.pie{
+.pie {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-.pie .foot{
+.pie .foot {
     display: flex;
 }
 
-.pie .foot2{
+.pie .foot2 {
     text-align: center;
 }

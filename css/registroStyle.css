@@ -1,4 +1,4 @@
-body{
+body {
     font-size: 12px;
     color: #606060;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,39 +6,36 @@ body{
     padding: 0;
 }
 
-h1{
+h1 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
 
-.linea{
+.linea {
     color: black;
     size: 80%;
 }
 
-
-nav .desktop{
+nav .desktop {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 
 }
 
-nav .desktop .links{
+nav .desktop .links {
     display: flex;
 }
 
-nav .desktop .imgLogo{
-    width:  50px;
+nav .desktop .imgLogo {
+    width: 50px;
     height: 50px;
 
 }
 
-
-
-nav a{
+nav a {
     font-size: 14px;
     color: #c95555;
     text-decoration: none;
@@ -46,22 +43,55 @@ nav a{
     padding: 20px 25px;
 }
 
-nav a:hover{
+nav a:hover {
     color: black;
     background-color: #00c3ff;
 }
 
-.registro{
+nav button:hover {
+    color: black;
+    background-color: #00c3ff;
+}
+
+.desktop .carrito {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.desktop .carrito .carrito1,
+.p {
+    display: flex;
+}
+
+.desktop .carrito .carrito1 {
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.registro {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    background-color: #ddd7d7;
+    background-color: #ebe5e5;
     padding: 100px
 }
 
+.linea {
+    width: 25%;
+    border-width: 2px;
 
-.informacion{
+}
+
+.linea2 {
+    width: 50%;
+    border-width: 2px;
+
+}
+
+.informacion {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -69,70 +99,69 @@ nav a:hover{
     padding: 60px;
 }
 
-.informacion .info1{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
+.informacion .info1 {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
 }
 
-.informacion .info2{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    padding: 13px;
+.informacion .info2 {
+
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
 }
 
-.informacion .info3{
-    display: flex;
-    justify-content: flex-start;
-    
-    
+.informacion .info3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
 }
 
-.informacion .info1 .txt{
+.informacion .info1 .txt {
     width: 400px;
-    height: 25px;
+    height: 30px;
     margin-left: 10px;
 }
 
-.informacion .info2 .txt1{
+.informacion .info2 .txt1 {
     width: 822px;
-    height: 25px;
-    
+    height: 30px;
+
 }
 
-.informacion .info3 .comboBox, .buscar{
+.informacion .info3 .comboBox,
+.buscar {
     width: 400px;
-    height: 25px;
-    
+    height: 30px;
+
 }
 
-.botones .btn{
-    width: 200px;
-    height: 25px;
-    background-color: rgb(184, 169, 169);
+.botones .btn {
+    width: 160px;
+    height: 30px;
+    color: whitesmoke;
+    background-color: rgb(42, 42, 42);
 }
 
+.botones .btn1 {
+    width: 160px;
+    height: 30px;
+}
 
-
-
-
-
-
-
-.pie{
+.pie {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-.pie .foot{
+.pie .foot {
     display: flex;
 }
 
-.pie .foot2{
+.pie .foot2 {
     text-align: center;
 }
